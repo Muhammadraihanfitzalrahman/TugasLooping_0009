@@ -37,7 +37,7 @@ bool cekFibonacci(int n) {
         a = b;
         b = temp;
     }
-    return true;
+    return (a == n);
 }
 
 int main() {
