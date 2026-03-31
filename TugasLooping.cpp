@@ -75,3 +75,9 @@ int main() {
                 inputAngka();
                 tampilkanHasil(cekFibonacci(angka), "Fibonacci");
                 break;
+            case 0:
+                cout << "Keluar dari program. Terima kasih!" << endl;
+                return 0;
+            default:
+                cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
+                break;
