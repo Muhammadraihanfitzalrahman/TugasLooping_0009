@@ -41,6 +41,11 @@ bool cekFibonacci(int n) {
 }
 
 void tampilkanHasil(bool hasil, string jenis) {
+    if (hasil) {
+        cout << "Hasil: " << angka << " adalah bilangan " << jenis << "." << endl;
+    } else {
+        cout << "Hasil: " << angka << " BUKAN bilangan " << jenis << "." << endl;
+    }
 }
 
 int main() {
