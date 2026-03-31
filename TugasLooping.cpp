@@ -28,6 +28,9 @@ bool cekPrima(int n) {
     return true;
 }
 
+bool cekFibonacci(int n) {
+    return true;
+}
 
 int main() {
     return 0;
