@@ -61,14 +61,17 @@ void tampilkanHasil(bool hasil, string jenis)
     }
 }
 
-int main()
-{
+int main() {
     // Loop utama program
-    while (true)
-    {
+    while (true) {
         tampilkanMenu();
 
-        int main()
-        {
-            return 0;
-        }
+    switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanHasil(cekPrima(angka), "Prima");
+                break;
+            case 2:
+                inputAngka();
+                tampilkanHasil(cekFibonacci(angka), "Fibonacci");
+                break;
