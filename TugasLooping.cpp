@@ -40,6 +40,9 @@ bool cekFibonacci(int n) {
     return (a == n);
 }
 
+void tampilkanHasil(bool hasil, string jenis) {
+}
+
 int main() {
     return 0;
 }
