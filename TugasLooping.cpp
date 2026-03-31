@@ -11,7 +11,6 @@ void tampilkanMenu() {
     cout << "0. Keluar" << endl;
     cout << "Pilih menu: ";
     cin >> pilihan;
-
 }
 
 int main() {
