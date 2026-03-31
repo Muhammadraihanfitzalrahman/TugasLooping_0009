@@ -19,6 +19,8 @@ void inputAngka() {
 }
 
 bool cekPrima(int n) {
+    if (n <= 1) return false;
+
 return true;
 }
 
