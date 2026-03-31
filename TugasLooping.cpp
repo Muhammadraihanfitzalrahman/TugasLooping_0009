@@ -18,6 +18,11 @@ void inputAngka() {
     cin >> angka;
 }
 
+bool cekPrima(int n) {
+return true;
+}
+
+
 int main() {
     return 0;
 }
